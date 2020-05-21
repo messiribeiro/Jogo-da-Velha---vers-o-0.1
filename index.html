@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Jogo da velha</title>
+</head>
+
+<body>
+    <h1></h1>
+    
+    <div class="interface">
+        
+        <div class="info">
+            <div id="x" class="x">
+                <p>X</p>
+                <p id="pointX" class="points">0</p>
+            </div>
+            <div id="o" class="o">
+                <p>O</p>
+                <p id="pointO" class="points">0</p>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="canvas">
+            <div class="button">
+                <input type="button" value="." class="one" onclick="input('.one')"></input>
+                <input type="button" value="." class="two" onclick="input('.two')"></input>
+                <input type="button" value="." class="three" onclick="input('.three')"></input>
+                <input type="button" value="." class="four" onclick="input('.four')"></input>
+                <input type="button" value="." class="five" onclick="input('.five')"></input>
+                <input type="button" value="." class="six" onclick="input('.six')"></input>
+                <input type="button" value="." class="seven" onclick="input('.seven')"></input>
+                <input type="button" value="." class="eight" onclick="input('.eight')"></input>
+                <input type="button" value="." class="nine" onclick="input('.nine')"></input>
+            </div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+        </div>
+        <input class="reiniciar" type="button" value="Reiniciar">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
